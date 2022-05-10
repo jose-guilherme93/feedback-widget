@@ -1,16 +1,9 @@
+import { Widget } from './components/WidgetButton'
 
-import './App.css'
+
 import './global.css'
 
+export function App() {
 
-
-function App() {
-
-  return (
-    <>
-    <h1>hello</h1>
-    </>
-  )
+  return <Widget />
 }
-
-export default App
